@@ -18,6 +18,8 @@ import java.util.HashMap;
  */
 @Configuration
 public class ShiroConfig {
+    private Integer timeout;
+
     private String username;
 
     @Value("${spring.redis.host}")
